@@ -54,14 +54,14 @@ async def show_prices(call: CallbackQuery):
                                  reply_markup=kb.as_markup())
 
 
-# ── Портфолио ────────────────────────────────────────────────
+# ── Портфолио (Pinterest) ────────────────────────────────────────────────
 
 @router.callback_query(F.data == "show_portfolio")
 async def show_portfolio(call: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(
         text="🌸 Смотреть портфолио",
-        url="https://t.me/gggyyyiiiooo777aaabot"
+        url="https://pin.it/6cF44KnVW"
     ))
     kb.row(InlineKeyboardButton(text="🔙 Назад", callback_data="back_to_main"))
     await call.message.edit_text(

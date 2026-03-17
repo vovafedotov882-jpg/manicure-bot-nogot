@@ -61,7 +61,7 @@ async def show_portfolio(call: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(
         text="🌸 Смотреть портфолио",
-        url="https://clck.ru/3SYqDZ"
+        url="https://t.me/gggyyyiiiooo777aaabot"
     ))
     kb.row(InlineKeyboardButton(text="🔙 Назад", callback_data="back_to_main"))
     await call.message.edit_text(

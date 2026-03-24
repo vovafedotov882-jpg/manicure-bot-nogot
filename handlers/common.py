@@ -60,8 +60,8 @@ async def show_prices(call: CallbackQuery):
 async def show_portfolio(call: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(
-        text="🌸 Смотреть портфолио (Pinterest)",
-        url="https://pin.it/6cF44KnVW"
+        text="🌸 Смотреть портфолио",
+        url="https://pin.it/29vyERnzg"
     ))
     kb.row(InlineKeyboardButton(text="🔙 Назад", callback_data="back_to_main"))
     await call.message.edit_text(

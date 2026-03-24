@@ -2,15 +2,15 @@
 #  config.py — настройки бота
 # ============================================================
 
-BOT_TOKEN = "8265620884:AAEYQ7UAUnVkwHb0h2hthOCKxNZsza4dAwA"          # токен от @BotFather
-ADMIN_ID   = 7775988041                 # Telegram ID администратора
+BOT_TOKEN = "8506314447:AAGbPX2e9zIpqQ-Xmc7zxxQssE8UZphUMAg"          # токен от @BotFather
+ADMIN_ID   = 1747918736                 # Telegram ID администратора
 
 # Канал с расписанием (для публикации записей)
-SCHEDULE_CHANNEL_ID = "@gggiiiaaa777"
+SCHEDULE_CHANNEL_ID = "@testt778"
 
 # Обязательная подписка
-CHANNEL_ID   = "@alllaalalah"        # username или числовой ID канала
-CHANNEL_LINK = "https://t.me/alllaalalah"
+CHANNEL_ID   = "@teeesting774"        # username или числовой ID канала
+CHANNEL_LINK = "https://t.me/teeesting774"
 
 # База данных
 DB_PATH = "manicure.db"
